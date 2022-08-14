@@ -1,0 +1,19 @@
+[package]
+name = "curio"
+version = "1.0.0"
+description = "A Blazing Fast HTTP Client"
+authors = ["XXIV"]
+homepage = "https://github.com/thechampagne/libcurio"
+repository = "https://github.com/thechampagne/libcurio"
+readme = "README.md"
+license = "MIT"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "curio"
+crate-type =["cdylib","staticlib"]
+
+[dependencies]
+curio = "0.0.3"
