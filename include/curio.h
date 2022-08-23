@@ -21,7 +21,7 @@ typedef struct {
     size_t warnings_count;
 } curio_t;
   
-extern int curio_request_get(curio_t* curio, const char* url);
+extern curio_t* curio_request_get(const char* url);
 
 #ifdef __cplusplus
 }
